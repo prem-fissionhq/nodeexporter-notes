@@ -46,8 +46,8 @@ sudo chmod 664 /usr/lib/systemd/system/node_exporter.service
 ```
 
 # reload systemctl 
-sudo systemctl daemon-reload
-sudo systemctl start node_exporter
+sudo systemctl daemon-reload \n
+sudo systemctl start node_exporter \n
 
-sudo systemctl enable node_exporter.service
+sudo systemctl enable node_exporter.service \n
 sudo systemctl status node_exporter
